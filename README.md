@@ -1,2 +1,2 @@
 # PracticalTest1
-test practic 1 EIM
+Teris Olga 343C3
