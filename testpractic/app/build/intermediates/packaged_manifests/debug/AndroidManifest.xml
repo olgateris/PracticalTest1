@@ -33,6 +33,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04Service"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

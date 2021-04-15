@@ -2,7 +2,10 @@ package ro.pub.cs.systems.eim.practicaltest01var04;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +22,20 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
     private CheckBox check1, check2;
     private TextView text;
 
+    private MessageReceiver messageReceiver = new MessageReceiver();
+    private IntentFilter intentFilter = new IntentFilter();
+
+    private class MessageReceiver extends BroadcastReceiver
+    {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+            Log.d(Constants.TAG, "am primit mesajul");
+            Log.d(Constants.TAG, intent.getStringExtra(Constants.BROADCAST_TAG));
+        }
+    }
+
+
     private ButtonClickListener buttonClickListener = new ButtonClickListener();
     private class ButtonClickListener implements View.OnClickListener {
         @Override
@@ -30,8 +47,14 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
                             Toast.makeText(PracticalTest01Var04MainActivity.this, "necompletat! ", Toast.LENGTH_LONG).show();
                         } else {
                             text.setText(nume.getText().toString() + " " + grupa.getText().toString());
+                            Intent intent1 = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
+                            intent1.putExtra(Constants.second_nume, nume.getText().toString());
+                            intent1.putExtra(Constants.second_grupa, grupa.getText().toString());
+                            getApplicationContext().startService(intent1);
+                            Log.d(Constants.TAG, "mesajjjjj");
                         }
                     }
+
                     break;
                 case R.id.navigate:
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04SecondaryActivity.class);
@@ -40,6 +63,8 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
                     startActivityForResult(intent, 2000);
                     break;
             }
+
+
 
 
         }
@@ -60,7 +85,7 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
         display.setOnClickListener(buttonClickListener);
         navigate.setOnClickListener(buttonClickListener);
 
-
+        intentFilter.addAction(Constants.INTENT_ACTION);
         if (savedInstanceState != null) {
             Log.d(Constants.TAG, "onCreate() method was invoked with a previous state");
             if(savedInstanceState.containsKey(Constants.SAVED)){
@@ -68,6 +93,44 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
             }
         }
 
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d(Constants.TAG, "onStart() method was invoked");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d(Constants.TAG, "onStop() method was invoked");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d(Constants.TAG, "onDestroy() method was invoked");
+    }
+
+    @Override
+    public  void onRestart() {
+        super.onRestart();
+        Log.d(Constants.TAG, "onRestart() method was invoked");
+    }
+
+    @Override
+    public  void onResume() {
+        super.onResume();
+        registerReceiver(messageReceiver, intentFilter);
+        Log.d(Constants.TAG, "onResume() method was invoked");
+    }
+
+    @Override
+    public  void onPause() {
+        super.onPause();
+        unregisterReceiver(messageReceiver);
+        Log.d(Constants.TAG, "onPause() method was invoked");
     }
 
     @Override

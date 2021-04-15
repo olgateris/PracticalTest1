@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -37,25 +37,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Olea\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\1435e0b5216c3fd72a2d6579c29d3ee1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\035487676af6db782633ffbdc1d98b21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:3:5-57
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:5:5-33:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -106,6 +106,14 @@ category#android.intent.category.DEFAULT
 ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:24:17-76
 	android:name
 		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:24:27-73
+service#ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04Service
+ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:29:9-32:40
+	android:enabled
+		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml:30:13-56
 uses-sdk
 INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Olea\Desktop\eim\test\PracticalTest1\testpractic\app\src\main\AndroidManifest.xml
