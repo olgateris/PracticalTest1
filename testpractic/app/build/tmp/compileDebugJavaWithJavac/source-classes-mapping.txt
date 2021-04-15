@@ -1,8 +1,12 @@
+ro/pub/cs/systems/eim/practicaltest01var04/PracticalTest01Var04SecondaryActivity.java
+ ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04SecondaryActivity
+ ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04SecondaryActivity$1
+ ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04SecondaryActivity$ButtonClickListener
+ro/pub/cs/systems/eim/practicaltest01var04/Constants.java
+ ro.pub.cs.systems.eim.practicaltest01var04.Constants
 ro/pub/cs/systems/eim/practicaltest01var04/BuildConfig.java
  ro.pub.cs.systems.eim.practicaltest01var04.BuildConfig
 ro/pub/cs/systems/eim/practicaltest01var04/PracticalTest01Var04MainActivity.java
  ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04MainActivity
  ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04MainActivity$1
  ro.pub.cs.systems.eim.practicaltest01var04.PracticalTest01Var04MainActivity$ButtonClickListener
-ro/pub/cs/systems/eim/practicaltest01var04/Constants.java
- ro.pub.cs.systems.eim.practicaltest01var04.Constants

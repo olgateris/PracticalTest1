@@ -1773,6 +1773,7 @@ id bottom
 id bounce
 id buttonPanel
 id cache_measures
+id cancel
 id cancel_button
 id center
 id center_horizontal
@@ -1959,6 +1960,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id ok
 id on
 id outline
 id outward
@@ -2057,6 +2059,7 @@ id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
+id text1
 id text2
 id textEnd
 id textSpacerNoButtons
@@ -2161,6 +2164,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_practical_test01_var04_secondary
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -2,6 +2,7 @@ package ro.pub.cs.systems.eim.practicaltest01var04;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +32,13 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
                             text.setText(nume.getText().toString() + " " + grupa.getText().toString());
                         }
                     }
+                    break;
+                case R.id.navigate:
+                    Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04SecondaryActivity.class);
+                    intent.putExtra(Constants.second_nume, nume.getText().toString());
+                    intent.putExtra(Constants.second_grupa, grupa.getText().toString());
+                    startActivityForResult(intent, 2000);
+                    break;
             }
 
 
@@ -76,6 +84,14 @@ public class PracticalTest01Var04MainActivity extends AppCompatActivity {
         Log.d(Constants.TAG, "restoreee");
         if (savedInstanceState.containsKey(Constants.SAVED)) {
             text.setText(savedInstanceState.getString(Constants.SAVED));
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        super.onActivityResult(requestCode, resultCode, intent);
+        if (requestCode == 2000) {
+            Toast.makeText(this, "The activity returned with result " + resultCode, Toast.LENGTH_LONG).show();
         }
     }
 }
